@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decola - Damasceno</title>
+    <link rel="shortcut icon" type="imagex/png" href="./img/coke.png">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"><img src="./img/oi.png" class="logo" /></a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="navigation">
+          <li><a href="https://drive.google.com/file/d/1ncWnhZmiFQ9QE9Glqvtc1WzkQ6vIiRr4/view">Conexão liderança</a></li>
+          <li><a href="https://drive.google.com/file/d/1mP-egdaPnSU2gJKdu4pgamttvznDgcsx/view?fbclid=IwAR07c4bjwnauBW6W-0KX6TWK2I9CIc7mNWorlzSLqhH28PmPy96YI8gyu5M">Gestão de tempo</a></li>
+          <li><a href="rel.html">Atual</a></li>
+          <li><a href="https://wa.me/qr/WEKIMJLI3PTPG1">Contato</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>Decola nos negócios</h2>
+          <p>
+            Durante o período do decola no negócio vivenciamos uma experiência incrível onde 
+            os estagiários puderam conhecer de perto a estratégia comercial, industrial e logística da empresa. 
+            Clique no botão abaixo para ler meu relatório, onde abordo minha experiência durante esse período.
+          </p>
+          <a href="rel.html">Acessar relatório</a>
+        </div>
+        <div class="sec2">
+          <img src="./img/coke.png">
+        </div>
+      </div>
+
+      <ul class="sci">
+        <li>
+          <a href="https://www.facebook.com/ggugu2/"><img src="./img/facebook.png" /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/gudamasc/"><img src="./img/twitter.png" /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/gudamasc/"><img src="./img/instagram.png" /></a>
+        </li>
+      </ul>
+    </section>
+    <script>
+      function toggleMenu() {
+        const menuToggle = document.querySelector('.toggle');
+        menuToggle.classList.toggle('active');
+        const navigation = document.querySelector('.navigation');
+        navigation.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
